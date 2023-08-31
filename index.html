@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shreyash-Developer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins',sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0px 23px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: green;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+.firstsection > div{
+    width: 30%;
+}
+.leftsection{
+    font-size: 3rem;
+}
+.leftsection .btn{
+    padding: 12px;
+    background: rgb(18, 18, 62);
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.leftsection .btn:hover{
+    background-color:rgb(2, 74, 2);
+}
+.rightsection img{
+width: 80%;
+}
+.purple{
+    color: rgb(170, 107, 228);
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">shreyash's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hi, My name is <span class="purple">Shreyash</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a class="btn"href="https://drive.google.com/file/d/1-4UeoQ2HLyqMILBjEstE8Be8yTF9UFW0/view?usp=drivesdk">Download Resume</a>
+                    <a href="https://www.linkedin.com/in/shreyash-kathane-4474b124a" class="btn">Visit linkedln</a>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img  src="
+                bg.png" alt="">
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['web developer', 'Competitive coder','Programmer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
