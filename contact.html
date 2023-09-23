@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+                 *{
+            margin: 0;
+            padding: 0;
+        }
+body{
+    background-color: rgb(247, 246, 246);
+    color: rgb(8, 8, 8);
+    font-family: 'Poppins',sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(36, 179, 205);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0px 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+nav ul li a:hover{
+    /* text-decoration: none; */
+    color: rgb(255, 16, 16);
+}
+.left{
+    font-size: 1.5rem;
+}
+
+.contactInfo {
+    width: 20%;
+    position: absolute;
+    left: 40%;
+    border-bottom: 5px solid white;
+    overflow: hidden;
+    animation: animate 2s linear forwards;
+    background-color: rgb(230, 140, 140);
+    text-align: center;
+        }
+ 
+        .contactInfo h1 {
+            color: white;
+        }
+ 
+        @keyframes animate {
+            0% {
+                width: 0px;
+                height: 0px;
+            }
+            30% {
+                width: 50px;
+                height: 0px;
+            }
+            60% {
+                width: 50px;
+                height: 80px;
+            }
+        }
+        .Contains ul{
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">shreyash's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="contactInfo">
+            <h1>Contact Info</h1>
+            </div>
+        </div class="Contains">
+        <br>
+        <br>
+        <br>
+        <ul>
+            <li><a href="">Github</a></li>
+            <li><a href="">linkedln</a></li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">Instagram</a></li>
+        </ul>
+    </div>
+    </main>
+</body>
+</html>

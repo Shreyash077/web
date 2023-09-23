@@ -16,16 +16,16 @@
             padding: 0;
         }
 body{
-    background-color: rgb(0, 0, 33);
-    color: white;
+    background-color: rgb(247, 246, 246);
+    color: rgb(8, 8, 8);
     font-family: 'Poppins',sans-serif;
 }
 nav{
     display: flex;
-    justify-content: space-around;
     align-items: center;
     height: 80px;
-    background-color: rgb(18, 18, 62);
+    background-color: rgb(36, 179, 205);
+    justify-content: space-around;
 }
 nav ul{
     display: flex;
@@ -37,13 +37,15 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
+    color: rgb(0, 0, 0);
 }
 nav ul li a:hover{
     text-decoration: none;
-    color: green;
+    color: rgb(255, 16, 16);
 }
 .left{
     font-size: 1.5rem;
+    text-align: left;
 }
 .firstsection{
     display: flex;
@@ -59,7 +61,7 @@ nav ul li a:hover{
 }
 .leftsection .btn{
     padding: 12px;
-    background: rgb(18, 18, 62);
+    background: rgb(0, 0, 0);
     color: white;
     border: 1px solid white;
     border-radius: 6px;
@@ -68,13 +70,13 @@ nav ul li a:hover{
     text-decoration: none;
 }
 .leftsection .btn:hover{
-    background-color:rgb(2, 74, 2);
+    background-color:rgb(180, 19, 43);
 }
 .rightsection img{
 width: 80%;
 }
 .purple{
-    color: rgb(170, 107, 228);
+    color: rgb(231, 179, 25);
 }
     </style>
 </head>
@@ -84,11 +86,11 @@ width: 80%;
             <div class="left">shreyash's portfolio</div>
             <div class="right">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
                     <li><a href="">Services</a></li>
                     <li><a href="">Projects</a></li>
-                    <li><a href="">Contact Me</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
@@ -96,7 +98,7 @@ width: 80%;
     <main>
         <section class="firstsection">
             <div class="leftsection">Hi, My name is <span class="purple">Shreyash</span>
-                <div>and I am a passionate</div>
+                <div>and I am </div>
                 <span id="element"></span>
                 <div class="buttons">
                     <a class="btn"href="https://drive.google.com/file/d/1-4UeoQ2HLyqMILBjEstE8Be8yTF9UFW0/view?usp=drivesdk">Download Resume</a>
@@ -112,7 +114,7 @@ width: 80%;
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-          strings: ['web developer', 'Competitive coder','Programmer'],
+          strings: ['web developer', 'Competitive coder','Chess player','Cricketer','Programmer'],
           typeSpeed: 50,
         });
       </script>
